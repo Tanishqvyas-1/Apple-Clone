@@ -130,7 +130,7 @@ export default function Content() {
           </div>
         </div>
         <div className="cr">
-          <p>Copyright copy&; 2024 Apple Inc. All Rights Reserved.</p>
+          <p>Copyright &copy; 2024 Apple Inc. All Rights Reserved.</p>
         </div>
       </div>
     </>
