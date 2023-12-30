@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+}
+.navbar img{
+    width: 30px;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;    
+    text-align: center;
+    margin-left: 50px;
+    padding: 10px;
+}
+
+.navbar{
+    
+    width: 100%;
+    height: 50px;
+    background-color: #fcfbf8;
+  
+}
+.navbar ul li{
+    text-align: center;
+    margin: 0 40px;
+    cursor: pointer;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .navbar ul {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0;
+      margin-left: 0;
+    }
+  
+    .navbar ul li {
+      margin: 10px 0;
+    }
+  }
+
+  .navbar img:last-child {
+    display: none;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .navbar img:last-child {
+      display: inline;
+      margin-left: auto;
+    }
+  }
+  
+  /* Existing styles remain unchanged */
+
+.navbar {
+    position: relative;
+    z-index: 1; /* Ensure the navbar is on top of other elements */
+  }
+  
+  .video {
+    position: relative;
+    z-index: 0; /* Lower z-index to place the video behind the navbar */
+  }
+  
+  @media only screen and (max-width: 600px) {
+    /* Additional styles for mobile responsiveness */
+    .navbar {
+      position: static; /* Reset position for mobile */
+      z-index: auto; /* Reset z-index for mobile */
+      width: 100%; /* Ensure the navbar takes the full width */
+      margin-bottom: 10px; /* Add margin to separate navbar and video */
+    }
+  }
+  

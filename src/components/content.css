@@ -1,0 +1,227 @@
+.video video{
+    width: 100%
+}
+.service img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.box1{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(0,0 ,0 , 0.099);
+    padding: 20px;
+    margin-top: 30px;
+}
+.title h1{
+    font-size: 40px;
+}
+.product img{
+    width: 100px;
+    height: 100px;
+}
+.products{
+    background-color: rgba(0,0 ,0 , 0.099);
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.product a{
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+.box2 {
+    text-align: center;
+    padding: 20px;
+}
+.card img{
+    width: 200px;
+    height: 200px;
+}
+.cards{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.box2{
+    background-color: rgba(0,0 ,0 , 0.099);
+}
+.card p{
+    padding: 20px;
+}
+.card{
+    height: 450px;
+    width: 300px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+.card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transform: scale(1.1); 
+    transition: box-shadow 0.3s, transform 0.3s; 
+}
+.black{
+    background-color: black;
+    color: white;
+}
+.image img{
+    height: 400px;
+}
+.events{
+    padding: 50px;
+    background-color: black;
+    color: white;
+}
+.events h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.image{
+    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.box3 img{
+    height: 500px;
+}
+.box3{
+    display: flex;
+    padding: 50px;
+}
+.box3 h1{
+    margin-top: 200px;
+    margin-left: 100px;
+}
+.items{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.item ul li{
+    list-style: none;
+    cursor: pointer;
+}
+.logo img{
+    width: 30px;
+}
+.logo{
+    display: flex;
+    padding: 10px;
+}
+.logo p{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.footer{
+    background-color: rgba(0, 0, 0, 0.1);;
+}
+.cr{
+    text-align: center;
+    padding: 10px;
+}
+
+
+/* Existing styles remain unchanged */
+
+@media only screen and (max-width: 600px) {
+    .box1 {
+      flex-direction: column;
+      text-align: center;
+      margin-top: 10px;
+    }
+  
+    .box1 img,
+    .box1 p,
+    .box1 a {
+      margin: 10px 0;
+    }
+  
+    .products {
+      flex-direction: column;
+      align-items: center;
+      margin-top: 20px;
+    }
+  
+    .product {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+  
+    .box2 {
+      padding: 10px;
+    }
+  
+    .cards {
+      flex-direction: column;
+      height: auto;
+    }
+  
+    .card {
+      height: auto;
+      width: 100%;
+      margin: 10px 0;
+    }
+  
+    .card img {
+      width: 100%;
+      height: auto;
+    }
+  
+    .events {
+      padding: 20px;
+    }
+  
+    .events h1 {
+      margin-bottom: 10px;
+    }
+  
+    .image img {
+      height: auto;
+      max-width: 100%;
+    }
+  
+    .box3 {
+      flex-direction: column;
+      padding: 20px;
+    }
+  
+    .box3 img {
+      height: auto;
+      max-width: 100%;
+    }
+  
+    .box3 h1 {
+      margin-top: 20px;
+      margin-left: 0;
+    }
+  
+    .items {
+      flex-direction: column;
+      padding: 10px;
+    }
+  
+    .item ul li {
+      margin: 5px 0;
+    }
+  
+    .logo {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .logo img {
+      margin-bottom: 5px;
+    }
+  }
+  
